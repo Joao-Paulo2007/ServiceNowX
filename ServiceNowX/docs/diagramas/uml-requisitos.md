@@ -1,1 +1,1 @@
-![uml requisitos](docs/anexos/UML Requisito NexusLog.png)
+![UML Requisito NexusLog.png](../anexos/UML%20Requisito%20NexusLog.png)
