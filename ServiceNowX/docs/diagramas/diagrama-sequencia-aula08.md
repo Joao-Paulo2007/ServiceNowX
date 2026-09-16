@@ -1,4 +1,4 @@
-### 5.2 Diagrama de sequência
+# Diagrama de sequência
 
 ```mermaid
 sequenceDiagram
