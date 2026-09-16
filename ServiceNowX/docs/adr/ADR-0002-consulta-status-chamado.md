@@ -15,6 +15,15 @@ equipe técnica.
 Esse é o requisito RF-08-01: *"o solicitante precisa acompanhar o status do seu chamado,
 para saber se ele está aberto, atribuído, resolvido ou escalado."*
 
+
+| Leitura do requisito | |
+|---|---|
+| Quem? | Solicitante (usuário que abriu o chamado) |
+| Faz o quê? | Acompanhar |
+| O quê? | Status do chamado |
+| Resultado esperado | Visualizar a situação atual do atendimento |
+| Valores possíveis | `ABERTO`, `ATRIBUIDO`, `RESOLVIDO`, `ESCALADO` |
+
 ## Decisão
 Expor a consulta de status como uma nova operação de leitura no componente de Chamados já
 existente, adicionando o método `consultarStatus(idChamado)` em
